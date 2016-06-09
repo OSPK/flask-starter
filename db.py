@@ -1,6 +1,6 @@
 from app import app
 from app import db
-from app.models import User
+from app.models import Programs
 from flask.ext.script import Manager
 from flask.ext.migrate import Migrate, MigrateCommand
 

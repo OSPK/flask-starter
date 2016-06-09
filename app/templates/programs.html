@@ -1,0 +1,12 @@
+{% extends "base.html" %}
+
+{% block content %}
+<div class="topmargin container">
+	<div class="row">
+		<h1>{{university.uni_name}}</h1>
+				{% for program in programs %}
+					<a href="{{url_for("program", id=program.id)}}" title="">{{program.degree}} - {{program.title}}</a><br>
+				{% endfor %}
+	</div>
+</div><br><hr><br>
+{% endblock %}

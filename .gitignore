@@ -9,3 +9,6 @@ app.db
 *.pyc
 app/static/.webassets-cache/*
 app/static/uploads/
+*.ods#
+*.ods
+
